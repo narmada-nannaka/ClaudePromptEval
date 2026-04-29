@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Create a JSON policy document that allows read-only access to all S3 buckets for a specific IAM user",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that extracts the region from an AWS ARN string",
+    "format": "python"
+  },
+  {
+    "task": "Create a regex pattern to validate AWS S3 bucket names according to naming rules (3-63 characters, lowercase letters, numbers, hyphens, no consecutive periods)",
+    "format": "regex"
+  }
+]

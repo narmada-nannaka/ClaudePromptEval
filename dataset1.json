@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create an IAM policy that allows read-only access to all S3 buckets and objects in the account",
+    "format": "json",
+    "solution_criteria": "Must include correct IAM policy structure with Version, Statement array, Effect set to Allow, Action containing s3:GetObject and s3:ListBucket, and Resource with appropriate ARN wildcards"
+  },
+  {
+    "task": "Write a Python function that extracts the region from an AWS ARN string",
+    "format": "python",
+    "solution_criteria": "Function should accept an ARN string as parameter, split on colons, return the region (4th element after splitting), and handle edge cases like invalid ARNs"
+  },
+  {
+    "task": "Create a regex pattern to validate AWS S3 bucket names according to naming rules",
+    "format": "regex",
+    "solution_criteria": "Pattern must ensure 3-63 characters, start/end with lowercase letter or number, contain only lowercase letters/numbers/hyphens, no consecutive hyphens, and not formatted as IP address"
+  }
+]
